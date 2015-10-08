@@ -22,7 +22,7 @@ npm run dev
 ```
 
 Open this up in your browser:
-http://localhost:8080/webpack-dev-server/index.html
+[http://localhost:8080/webpack-dev-server/index.html](http://localhost:8080/webpack-dev-server/index.html)
 
 HTML is in the **public** folder (where you also put other assets like images, videos, Zip-files).
 Code is in the **src** folder.
@@ -39,7 +39,7 @@ Look into the **dist** folder.
 Note that the assets in public folder are not copied.
 
 
-## Notes
+## Sidenotes
 
 **No JSX**
 As of TypeScript 1.6, the tag-notation of JSX for React is supported.
