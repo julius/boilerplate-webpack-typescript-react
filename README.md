@@ -1,6 +1,6 @@
 # Boilerplate for Typescript, React, Webpack
 
-## About
+### About
 
 Get started with Typescript and React quickly, using Webpack.
 This boilerplate also sets up Bootstrap and Font-Awesome.
@@ -8,14 +8,18 @@ This boilerplate also sets up Bootstrap and Font-Awesome.
 Here are some arguments, why you might consider this stack for larger code bases:
 https://docs.google.com/presentation/d/1XB6lYXLjKFADEYdexXDI8Wqvll55LOhcEw2layqNI5Q
 
-## Usage 1) Get the code
+### Dependencies
+
+NPM
+
+### Usage 1) Get the code
 
 ``` bash
 git clone git@github.com:julius/boilerplate-webpack-typescript-react.git
 cd boilerplate-webpack-typescript-react && npm i
 ```
 
-## Usage 2) Run the code in development mode
+### Usage 2) Run the code in development mode
 
 ``` bash
 npm run dev
@@ -29,7 +33,7 @@ Code is in the **src** folder.
 Browser will refresh automatically when you change code.
 
 
-## Usage 3) Build the code for production use
+### Usage 3) Build the code for production use
 
 ``` bash
 npm run build
@@ -39,7 +43,7 @@ Look into the **dist** folder.
 Note that the assets in public folder are not copied.
 
 
-## Sidenotes
+### Sidenotes
 
 **No JSX**
 As of TypeScript 1.6, the tag-notation of JSX for React is supported.
@@ -56,6 +60,6 @@ It uses composition instead of Mixins (like FluxComponent).
 You can throw this away and use whatever Flux-Library you like.
 
 
-## License
+### License
 
 MIT (http://www.opensource.org/licenses/mit-license.php)
