@@ -8,9 +8,10 @@ This boilerplate also sets up Bootstrap and Font-Awesome.
 Here are some arguments, why you might consider this stack for larger code bases:
 https://docs.google.com/presentation/d/1XB6lYXLjKFADEYdexXDI8Wqvll55LOhcEw2layqNI5Q
 
-### Dependencies
+### Prerequisites
 
-NPM
+git, npm
+
 
 ### Usage 1) Get the code
 
