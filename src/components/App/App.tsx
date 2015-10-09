@@ -17,11 +17,6 @@ interface IState {
 interface ICSS { app: string; }
 const CSS: ICSS = require<ICSS>('./App.css');
 
-export const watchStores = [ PostStore.store ];
-export const getPropsFromStores = (): IProps => ({
-    posts: PostStore.store.getPosts(),
-});
-
 export class Component extends ReactComponent<IProps, IState> {
     componentWillMount() {
         var updateData = () => {
