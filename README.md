@@ -50,15 +50,7 @@ Note that the assets in public folder are not copied.
 As of TypeScript 1.6, the tag-notation of JSX for React is supported.
 It is not used here, because some IDEs do not support TSX yet.
 
-To get it: Simply use .tsx-files instead of .ts-files.
-
-
-
-**Weird Flux**
-Look at src/lib, src/index.ts and src/components/App/App.ts. 
-I quickly setup a very simple flux-like (but no actions) store system.
-It uses composition instead of Mixins (like FluxComponent).
-You can throw this away and use whatever Flux-Library you like.
+Check out the tsx-branch for that.
 
 
 ### License
