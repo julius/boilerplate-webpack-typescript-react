@@ -2,9 +2,12 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
+    watchOptions: {
+        poll: 1000,
+    },
     entry: [
         'regenerator/runtime',
-        path.resolve(__dirname + '/../src/index.ts'),
+        path.resolve(__dirname + '/../src/index.tsx'),
     ],
     output: {
         path: path.resolve(__dirname + '/../build'),
@@ -12,7 +15,7 @@ module.exports = {
         publicPath: '/assets/',
     },
     resolve: {
-        extensions: ['', '.webpack.js', '.web.js', '.ts', '.js', '.jsx', '.css'],
+        extensions: ['', '.webpack.js', '.web.js', '.ts', '.tsx', '.js', '.jsx', '.css'],
         alias: {
             app: path.join(__dirname, '../app'),
         },

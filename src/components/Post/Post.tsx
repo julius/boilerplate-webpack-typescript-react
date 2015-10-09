@@ -19,14 +19,14 @@ export class Component extends ReactComponent<IProps, IState> {
 
     render() {
         return (
-            React.DOM.div({ className: CSS.post + ' panel panel-default' }, [
-
-                React.DOM.div({ className: 'panel-heading' },
-                    this.props.post.name),
-
-                React.DOM.div({ className: 'panel-body' },
-                    this.props.post.description)
-            ])
+            <div className={CSS.post + ' panel panel-default'}>
+                <div className="panel-heading">
+                    {this.props.post.name}
+                </div>
+                <div className="panel-body">
+                    {this.props.post.description}
+                </div>
+            </div>
         );
     }
 }

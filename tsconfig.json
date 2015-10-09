@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+		"jsx": "react",
+    "target": "es3",
+    "sourceMap": true
+  },
+  "files": [
+  ]
+}
